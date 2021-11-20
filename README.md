@@ -21,11 +21,11 @@ https://chromedriver.chromium.org/downloads (下載對應chrome的版本)
 - 確保 localhost:5050、localhost:5252 port 並未被占用。
 
 ```bash
-git clone https://github.com/weihanglo/hahow-recruitment.git
-cd xxxx
+git clone https://github.com/a6a18/Hahow-Quality-Recruitment.git
+cd Hahow-Quality-Recruitment
 pip3 install -r requirements.txt    # 下載相關套件
 docker-compose up -d allure allure-ui    # 啟動docker環境
-python3 run_Test.py    # 執行測試
+python3 run.py    # 執行測試
 ```
 
 可以到這裡查看最新的測試報告：
@@ -64,7 +64,10 @@ http://localhost:5050/allure-docker-service/latest-report
 
 
 ## 專案講解：
+
 藉由docker建立allure測試報告環境<br>
+
+![docker畫面](https://github.com/a6a18/Hahow-Quality-Recruitment/blob/main/img/docker%E7%95%AB%E9%9D%A2.png)<br><br>
 
 
 [Selenium]: https://www.selenium.dev/
