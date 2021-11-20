@@ -3,6 +3,7 @@ import allure
 from selenium import webdriver
 from time import sleep
 import csv
+import os
 import requests
 
 class TestCase_UI():
@@ -13,7 +14,7 @@ class TestCase_UI():
 
     def setup_class(self):
         # 開啟瀏覽器
-        self.driver = webdriver.Chrome('C:/Users/a6a18/Desktop/allure-docker-python-pytest-example/tests/chromedriver.exe')
+        self.driver = webdriver.Chrome(os.path.join(os.path.dirname(__file__), 'chromedriver.exe'))
         self.driver.maximize_window()
 
 
