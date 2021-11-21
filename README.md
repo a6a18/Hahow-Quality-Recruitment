@@ -27,12 +27,14 @@ pip3 install -r requirements.txt    # 下載相關套件
 docker-compose up -d allure allure-ui    # 啟動docker環境
 ```
 
+- 執行測試
+
 ```bash
 # Linux/macOS
-python3 run.py    # 執行測試
+python3 run.py
 
 # Windows
-python run.py     # 執行測試
+python run.py
 ```
 
 可以到這裡查看最新的測試報告：
