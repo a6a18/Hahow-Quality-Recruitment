@@ -63,11 +63,25 @@ http://localhost:5050/allure-docker-service/latest-report
 ```
 
 
-## 專案講解：
+## 🐸 專案講解：
 
 藉由docker建立allure測試報告環境<br>
 
 ![docker畫面](https://github.com/a6a18/Hahow-Quality-Recruitment/blob/main/img/docker%E7%95%AB%E9%9D%A2.png)<br><br>
+
+docker環境讀取專案內allure-reports和allure-results的檔案並呈現測試報告於
+
+http://localhost:5050/allure-docker-service/projects/default/reports/latest/index.html?redirect=false <br>
+
+![Allure報告視窗](https://github.com/a6a18/Hahow-Quality-Recruitment/blob/main/img/Allure報告視窗.png)<br><br>
+
+測試案例呈現<br>
+
+![Testcase](https://github.com/a6a18/Hahow-Quality-Recruitment/blob/main/img/Testcase.png)<br><br>
+
+可至 http://localhost:5252/allure-docker-service-ui/projects/default 查看測試管理介面 <br>
+
+![測試管理](https://github.com/a6a18/Hahow-Quality-Recruitment/blob/main/img/測試管理.png)<br><br>
 
 
 [Selenium]: https://www.selenium.dev/
