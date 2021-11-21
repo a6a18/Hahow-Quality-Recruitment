@@ -25,7 +25,14 @@ git clone https://github.com/a6a18/Hahow-Quality-Recruitment.git
 cd Hahow-Quality-Recruitment
 pip3 install -r requirements.txt    # 下載相關套件
 docker-compose up -d allure allure-ui    # 啟動docker環境
+```
+
+```bash
+# Linux/macOS
 python3 run.py    # 執行測試
+
+# Windows
+python run.py     # 執行測試
 ```
 
 可以到這裡查看最新的測試報告：
