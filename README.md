@@ -14,7 +14,9 @@ https://www.python.org/downloads/
 https://www.docker.com/get-started
 
 - Chrome WebDriver
-https://chromedriver.chromium.org/downloads (下載對應chrome的webdriver版本，並且放置於/tests目錄底下)
+https://chromedriver.chromium.org/downloads 
+
+   **(下載對應的webdriver版本，並且放置於/tests目錄底下)**
 
 ## 🛸 執行
 
