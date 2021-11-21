@@ -14,7 +14,7 @@ https://www.python.org/downloads/
 https://www.docker.com/get-started
 
 - Chrome WebDriver
-https://chromedriver.chromium.org/downloads (下載對應chrome的版本)
+https://chromedriver.chromium.org/downloads (下載對應chrome的webdriver版本，並且放置於/tests目錄底下)
 
 ## 🛸 執行
 
@@ -46,20 +46,23 @@ http://localhost:5050/allure-docker-service/latest-report
 
 ```bash
 .
-├── tests/                      
-│  ├── api_test.py              # API測試
-│  ├── ui_test.py               # UI測試
-│  ├── chromedriver.exe         # WebDriver
-│  ├── condition
-│  │  └── api_conditon.py       # API測試的參考資料
 ├── allure-reports/             # allure測試報告
 ├── allure-results/             # allure測試結果
-├── README.md
+├── img/                        
+├── tests/ 
+│  ├── condition
+│  │  └── api_conditon.py       # API測試的參考資料                     
+│  ├── api_test.py              # API測試
+│  ├── ui_test.py               # UI測試
+│  └── chromedriver.exe         # WebDriver
+├── .gitattributes
+├── .gitignore
 ├── API_Answer.csv              # API問題的答案
-├── UI_Answer.csv               # UI問題的答案
+├── docker-compose.yml          # dockerfile
+├── README.md
 ├── requirements.txt
-├── docker-compose.yml
-└── run.py                      # 執行程式
+├── run.py                      # 執行程式
+└── UI_Answer.csv               # UI問題的答案     
 ```
 
 
