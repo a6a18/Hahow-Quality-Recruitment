@@ -14,7 +14,7 @@ class TestCase_UI():
 
     def setup_class(self):
         # 開啟瀏覽器
-        self.driver = webdriver.Chrome(os.path.join(os.path.dirname(__file__), 'chromedriver.exe'))
+        self.driver = webdriver.Chrome(os.path.join(os.path.dirname(__file__), 'chromedriver'))
         self.driver.maximize_window()
 
 
